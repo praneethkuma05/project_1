@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f8f8;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #000;
+            color: #fff;
+            padding: 15px 50px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            float: left;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .auth button {
+            background: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+        .auth .login {
+            background-color: #000;
+            color: #fff;
+            border-color: #fff;
+            border-radius: 10px;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            background: #fff;
+        }
+        .hero-image .image-1{
+            width: 350px;  
+            text-align: center;  
+            padding: 15px 20px;
+            margin-bottom: 10%;  
+
+        }
+        .hero-content {
+            max-width: 45%;
+        }
+        .hero-content h1 {
+            font-size: 48px;
+            margin-bottom: 25%;
+        }
+        .hero-content strong {
+            font-weight: bold;
+        }
+        
+        .signup {
+            background: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 15px 15px;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+        }
+        .stat {
+            text-align: center;
+            margin-bottom: 100px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            border-radius: 10px;
+
+        }
+        .pass-age {
+            margin-right: 35%;
+            padding: 5px;
+            margin-bottom: 10%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\GCET\Downloads\image_215.jpg" alt="">
+        <div class="logo">Lorem</div>
+        <nav>
+            <ul>
+                <li>Instructors</li>
+                <li>All Categories</li>
+                <li>View Plans</li>
+            </ul>
+        </nav>
+        <div class="auth">
+            <button class="login">Login</button>
+            <button class="register">Register</button>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-image">
+            <img class="image-1" src="C:\Users\GCET\Downloads\image_212.jpg" alt="Woman with sunglasses">
+            <div class="pass-age">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Cursus imperdiet sed id elementum. Quam vel aliquam sit vulputate. Faucibus nec gravida ipsum pulvinar vel.</p>
+            <button class="signup">Sign up</button>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1>Create <span>your</span> <strong>own style</strong></h1> <br>
+            <section class="stats">
+                <div class="stat"><strong>28K</strong> <p>Lorem ipsum dolor sit amet</p></div>
+                <div class="stat"><strong>16K</strong> <p>Lorem ipsum dolor sit amet</p></div>
+                <div class="stat"><strong>986</strong> <p>Lorem ipsum dolor sit amet</p></div>
+                <div class="stat"><strong>35K+</strong> <p>Lorem ipsum dolor sit amet</p></div>
+            </section>
+            <section class="gallery">
+                <img src="C:\Users\GCET\Downloads\image_214.jpg" alt="Desk setup">
+                <img src="C:\Users\GCET\Downloads\image_213.jpg" alt="Sunglasses on table">
+            </section>
+        </div>
+    </section>
+</body>
+</html>
